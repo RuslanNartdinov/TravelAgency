@@ -1,8 +1,9 @@
 import React from 'react';
 import "./Home.scss"
 import ThemeImage from '../../components/ThemeImage/ThemeImage';
-import ListOfCompanies from '../../components/ListOfCompanies/ListOfCompanies';
+import ListOfCompanies from './ListOfCompanies/ListOfCompanies';
 import Search from './Search/Search';
+import BestServices from './Category/BestServices/BestServices';
 const Home = () => {
 	const ThemeImageSource : string = "/images/HomePage/Home_Page.jpeg"
 	return (
@@ -14,6 +15,7 @@ const Home = () => {
 				<Search/>
 				</ThemeImage>
 				<ListOfCompanies/>
+				<BestServices/>
 			</div>
 		</div>
 	);

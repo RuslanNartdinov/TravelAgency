@@ -12,7 +12,7 @@
 
 		text-align: center;
 
-		color: var(--color-text);
+		color: var(--color-text-0);
 		opacity: 1;
 		font-size: 48px;
 
@@ -50,12 +50,12 @@
 				background-color: inherit;
 				border: none;
 
-				color: var(--color-text);
+				color: var(--color-text-0);
 				font-family: Nunito;
 				font-size: 19px;
 			}
 			input::placeholder{
-				color: var(--color-text);
+				color: var(--color-text-0);
 			}
 			.input__submit{
 				display: flex;

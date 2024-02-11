@@ -1,0 +1,19 @@
+.best-services{
+	width: 100%;
+	min-height: 200px;
+	.best-services_container{
+		height: 100%;
+		width: 100%;
+		.best-services_title{
+			font-family: Nunito;
+			color: var(--color-text-1);
+		}
+		.best-services__cards{
+			.b-s__cards-container{
+				>*{
+					margin: 0 20px 0 0;
+				}
+			}
+		}
+	}
+}
