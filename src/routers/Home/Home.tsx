@@ -3,7 +3,7 @@ import "./Home.scss"
 import ThemeImage from '../../components/ThemeImage/ThemeImage';
 import ListOfCompanies from './ListOfCompanies/ListOfCompanies';
 import Search from './Search/Search';
-import BestServices from './Category/BestServices/BestServices';
+import Category from './Category/Category';
 const Home = () => {
 	const ThemeImageSource : string = "/images/HomePage/Home_Page.jpeg"
 	return (
@@ -15,7 +15,7 @@ const Home = () => {
 				<Search/>
 				</ThemeImage>
 				<ListOfCompanies/>
-				<BestServices/>
+				<Category/>
 			</div>
 		</div>
 	);

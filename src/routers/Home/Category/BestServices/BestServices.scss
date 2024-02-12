@@ -1,10 +1,12 @@
 .best-services{
 	width: 100%;
-	min-height: 200px;
+	height: 500px;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+
 
 	.best-services_container{
 		height: 100%;
@@ -12,11 +14,13 @@
 
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		flex-direction: column;
 		.best-services_title{
 			font-family: Nunito;
 			color: var(--color-text-1);
+			font-size: 40px;
+			font-weight: 700;
 		}
 		.best-services__cards{
 			display: flex;
