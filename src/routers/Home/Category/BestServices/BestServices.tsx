@@ -12,7 +12,7 @@ const BestServices = () => {
 				<div className="best-services__cards">
 					<div className="b-s__cards-container">
 						{services_cards.map((card)=>{
-							return (<ServicesCard card={card}/>)
+							return (<ServicesCard card={card} key={card.name}/>)
 						})}
 					</div>
 				</div>

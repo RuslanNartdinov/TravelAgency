@@ -1,1 +1,47 @@
+.package-theme{
+	height: 800px;
+	width: 100%;
 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.package-container{
+		height: 100%;
+		width: 90%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.package-content{
+			max-width: 650px;
+			padding: 5%;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			.package-title{
+				.package-before-title{
+					font-family: Nunito;
+					color: var(--color-main);
+					font-size: 20px;
+					font-weight: 800;
+					margin: 20px;
+				}
+				.package-main-title{
+					font-family: Volkhov;
+					color: var(--color-text-1);
+					font-size: 40px;
+					font-weight: 700;
+					margin: 20px;
+				}
+			}
+			.package-description{
+				margin: 20px;
+
+				font-family: Nunito;
+			}
+		}
+	}
+}
