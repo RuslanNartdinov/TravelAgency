@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Trending.scss"
+import PackageCard from '../../../components/PackageCard/PackageCard';
+import { packages, IPackage } from '../../../helpers/packages';
 
 const Trending = (props : {titleBefore : string, title : string}) => {
 	return (
@@ -10,7 +12,11 @@ const Trending = (props : {titleBefore : string, title : string}) => {
 					<div className="title-main">{props.title}</div>
 				</div>
 				<div className="trending-packages">
-					
+					{packages.map((packageItem : IPackage)=>{
+						return (
+							<PackageCard packageItem={packageItem}/>
+						)
+					})}
 				</div>
 			</div>
 		</div>

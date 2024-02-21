@@ -14,4 +14,9 @@
 
 	border-radius: 8px;
 	font-family: Nunito;
+
+	transition-duration: 0.3s;
+}
+.view-packages:hover{
+	box-shadow: 0 0 15px 0 var(--color-main);
 }

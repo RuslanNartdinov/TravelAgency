@@ -1,0 +1,19 @@
+.explore-package-button{
+	width: auto;
+	height: auto;
+	
+	padding: 20px;
+
+	color: var(--color-text-0);
+	font-size: 17px;
+	font-weight: 700;
+
+	background-color: var(--color-main);
+
+	border-radius: 7px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+.explore-package-button:hover{
+	box-shadow: 0 0 15px 0 var(--color-main);
+}

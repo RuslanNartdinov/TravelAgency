@@ -28,10 +28,10 @@ const Home = () => {
 					<ExploreCard titleBefore='Promotion' title="Explore Nature" src="/images/Photos/Mountains.png" link=""/>
 					<ExploreCard titleBefore='Promotion' title='Explore Cities' src="/images/Photos/TokyoStreet.png" link=""/>
 				</div>
-				<PackageTheme reverse={true} src="/images/HomePage/TowerFranceIllustration.png" beforeTitle="HONEYMOON SPECIALS" title="We Provide You Best Europe Sightseeing Tours" description="Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!">
+				<PackageTheme reverse={true} src="/images/HomePage/TowerFranceIllustration.png" beforeTitle="PROMOTION" title="We Provide You Best Europe Sightseeing Tours" description="Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illum aut optio quibusdam!">
 					<ViewPackagesButton src="/honeymoon" name="View Packages"/>
 				</PackageTheme>
-				<Trending titleBefore='TRENDS' title='Our Clients Say about us'/>
+				<Trending titleBefore='TRENDS' title='Our Trending Tour Packages'/>
 			</div>
 		</div>
 	);
