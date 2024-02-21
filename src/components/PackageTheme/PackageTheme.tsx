@@ -1,10 +1,13 @@
 import React, { ReactElement } from 'react';
 import './PackageTheme.scss';
 
-const PackageTheme = (props : {src : string, beforeTitle : string, title : string, description : string, children : ReactElement}) => {
+const PackageTheme = (props : {src : string, beforeTitle : string, title : string, description : string, children : ReactElement, reverse : boolean}) => {
 	return (
 		<div className='package-theme'>
-			<div className="package-container">
+			<div className="package-container"
+				 style={{
+					flexDirection: `${props.reverse ? 'row-reverse' : 'row'}`,
+				 }}>
 				<div className="package-image"><img src={props.src} alt={props.title} /></div>
 				<div className="package-content">
 					<div className="package-title">

@@ -1,0 +1,40 @@
+.trending{
+	height: 800px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.trending-container{
+		height: 100%;
+		width: 100%;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		.trending-title{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			.title-before{
+				font-family: Nunito;
+				color: var(--color-main);
+				font-weight: 700;
+				font-size: 22px;
+			}
+			.title-main{
+				font-family: Volkhov;
+				color: var(--color-text-1);
+				font-size: 40px;
+				font-weight: 600;
+			}
+		}
+		.trending-packages{
+			height: 500px;
+			width: 100%;
+		}
+	}
+}
