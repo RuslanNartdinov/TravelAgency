@@ -1,0 +1,17 @@
+.theme-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	.title-before{
+		font-family: Nunito;
+		font-weight: 700;
+		color: var(--color-text-0);
+		font-size: 18px;
+	}
+	.title-after{
+		font-family: Yesteryear;
+		color: var(--color-text-0);
+		font-size: 160px;
+	}
+}
