@@ -14,7 +14,7 @@ const Trending = (props : {titleBefore : string, title : string}) => {
 				<div className="trending-packages">
 					{packages.map((packageItem : IPackage)=>{
 						return (
-							<PackageCard packageItem={packageItem}/>
+							<PackageCard key={packageItem.id} packageItem={packageItem}/>
 						)
 					})}
 				</div>

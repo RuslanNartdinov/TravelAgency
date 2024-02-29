@@ -9,7 +9,7 @@ const PackageCard = (props : {packageItem : IPackage}) => {
         const stars: JSX.Element[] = [];
 
         for (let i: number = 0; i < starNumber; i++) {
-            stars.push(<img src="/images/Icons/star.png" alt='*'/>);
+            stars.push(<img key={i} src="/images/Icons/star.png" alt='*'/>);
         }
 
         return stars;
